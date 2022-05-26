@@ -13,7 +13,7 @@ class RNCryptor_modified(rncryptor.RNCryptor):
 def decrypt_SEB(filename, password):
     cryptor = RNCryptor_modified()
 
-    # change to your seb filename
+    # Read Original .seb File
     with gzip.open(filename, 'rb') as f:
         file_content = f.read()
 
