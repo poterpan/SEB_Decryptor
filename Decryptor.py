@@ -26,7 +26,6 @@ def decrypt_SEB(filename, password):
     with open("result.xml", 'rb') as fp:
         pl = plistlib.load(fp)
 
-    pl = plistlib.load(fp)
     print(pl["startURL"])
 
     test_url = pl["startURL"]
