@@ -4,8 +4,11 @@
 
 ```pip install -r requirement.txt```
 2. 將檔案與py檔放置於同一目錄
+
 3. 執行py檔，並輸入檔名與密碼
+
 4. 結果會顯示於Terminal中，並同時新建url檔案於目錄
+
 5. **Enjoy it**
 
 
